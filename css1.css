@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color:antiquewhite;
+}
+header {
+    background: rgb(255, 255, 255);
+    width: auto;
+    text-align: center;
+    border: 1px solid;
+}
+
+.cabecalho {
+   width: auto;
+}
+img {
+    margin: 5px;
+    position:relative;
+    right: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: auto;
+    position: relative;
+    left: 1px;
+    bottom: 4em;
+    font-weight: bold;
+    font-size: 16px;
+}
+.container-conteudo {
+    text-align: center;
+    width: auto;
+}
+h2 {
+    font-weight: bold;
+    margin: 50px ;
+}
+
+.contato {
+    margin: auto ;
+    text-align: center;
+}
+

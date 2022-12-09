@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>
+         CRUD
+    </title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                 <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>ID*</label><label class="validation-error hide" id="idinvalido">Este campo é obrigatório.</label>
+                        <input type="text" name="id" id="id">
+                    </div>
+                    <div>
+                        <label>Horario de inicio</label>
+                        <input type="text" name="horariodeinicio" id="horariodeinicio">
+                    </div>
+                    <div>
+                        <label>Horario de termino</label>
+                        <input type="text" name="horariodetermino" id="horariodetermino">
+                    </div>
+                    <div>
+                        <label>Evento</label>
+                        <input type="text" name="evento" id="evento">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>IDs</th>
+                            <th>Horario de inicio</th>
+                            <th>Horario de termino</th>
+                            <th>Evento</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="js.js"></script>
+</body>
+
+</html>
